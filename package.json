@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "coverage": "nyc npm test",
-    "doc": "typedoc && cp assets/list-method-dependencies.jpg docs/",
+    "doc": "typedoc",
     "start": "tsc-watch --onSuccess 'node dist/index.js'",
     "test": "NODE_ENV=test mocha",
     "watch": "NODE_ENV=test mocha --watch --watch-extensions ts"
